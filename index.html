@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Mariscos</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .menu-container {
+            background-color: #0288d1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            text-shadow: 2px 2px #01579b;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .menu-button {
+            padding: 10px 20px;
+            background-color: #4fc3f7;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #01579b;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <h1>RESTAURANTE DE MARISCOS</h1>
+    <div class="button-container">
+        <a href="clientes.html" class="menu-button">Clientes</a>
+        <a href="pedido.html" class="menu-button">Pedido</a>
+        <a href="productos.html" class="menu-button">Productos</a>
+        <a href="proveedores.html" class="menu-button">Proveedores</a>
+        <a href="inventario.html" class="menu-button">Inventario</a>
+    </div>
+</div>
+
+</body>
+</html>
